@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .invoice {
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .payment-info,
+        .maintenance-details,
+        .total-section {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .signature {
+            margin-top: 20px;
+        }
+    </style>
+    <title>Invoice Template</title>
+</head>
+<body>
+
+<div class="invoice">
+    <div class="header">
+        <h2>Mahalaxmi CO OP Housing Society</h2>
+    </div>
+
+    <div class="user-info">
+        <p>Name / Flat no: <span id="client-name">[Client Name / Flat Number]</span></p>
+        <p>Bill Date: <span id="bill-date">[Bill Date]</span></p>
+        <p>Month: <span id="month">[Month]</span></p>
+    </div>
+
+    <div class="payment-info">
+        <p>Payment Done By: <span id="payment-done-by">[Payment Done By]</span></p>
+        <p>Payment Method: <span id="payment-method">[Cash / Cheque / UPI or Net Banking]</span></p>
+        <p>Transaction Details: <span id="transaction-details">[Transaction Details]</span></p>
+    </div>
+    <DIV><P><p>Invoice Number: [Invoice Number]</p></P></DIV>
+
+    <div class="maintenance-details">
+        <h3>Maintenance Details</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Month</th>
+                    <th>Unit Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+
+                <tr>
+                    <td>Water Charge</td>
+                    <td>[no.of.month]</td>
+                    <td id="WATER CHARGES">[WATER CHARGE]</td>
+                </tr>
+                <tr>
+                    <td>Sinking Fund (25% of Basic Maint)</td>
+                    <td>[no.of.month]</td>
+                    <td id="Sinking Fund ">[SINKING FUND]</td>
+                </tr>
+                <tr>
+                    <td>Repair & Maintenance (40% of Basic Maint)</td>
+                    <td>[no.of.month]</td>
+                    <td id="Repair & Maintenance (40% of Basic Maint)">[REPAIR AND MAINT]</td>
+                </tr>
+                <tr>
+                    <td>Maj. Rep Maint (35% of Basic Maint)</td>
+                    <td>[no.of.month]</td>
+                    <td id="Maj. Rep Maint (35% of Basic Maint)">[MAJ.Rep maint]</td>
+                </tr>
+                <tr>
+                    <td>SERVICE CHARGE</td>
+                    <td>[no.of.month]</td>
+                    <td id="SERVICE CHARGE">[SERVICE CHARGE]</td>
+                </tr>
+                <tr>
+                    <td>Non-occupancy Charges</td>
+                    <td>[no.of.month]</td>
+                    <td id="Non-occupancy Charges">[Non Occupancy charges]</td>
+                </tr>
+                <tr>
+                    <td>Festival Charges</td>
+                    <td>[no.of.month]</td>
+                    <td id="Festival Charges">[Festival Charges]</td>
+                </tr>
+                <tr>
+                    <td>Bike Parking</td>
+                    <td>[no.of.month]</td>
+                    <td id="Bike Parking">[Bike Parking]</td>
+                </tr>
+                <tr>
+                    <td>3/4 Wheeler Parking</td>
+                    <td>[no.of.month]</td>
+                    <td id="3/4 Wheeler Parking">[3/4 Wheeler Parking]</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="total-section">
+        <table>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td> [Total Amount]</td>
+            </tr>
+        </table>
+        <p>Total in Words: <span id="total-in-words">[Total Amount in Words]</span></p>
+    </div>
+
+    <!-- <div class="signature">
+        <p>Thank you for choosing Mahalaxmi CO OP Housing Society!</p>
+        <p>                        </p>
+        <p>                        </p>
+        <p>________________________</p>
+        <p>[Signature]</p>
+        <p>Chairman: Umesh Jadhav</p>
+    </div> -->
+    <div class="signature">
+        <p>Thank you for choosing Mahalaxmi CO OP Housing Society!</p>
+        <p>                        </p>
+        <p>                        </p>
+        <div style="border: 1px solid #000; width: 200px; height: 100px; padding: 10px; margin-bottom: 10px;">[Signature/Stamp]</div>
+        <p>Chairman: Umesh Jadhav</p>
+    </div>
+</div>
+
+</body>
+</html>
